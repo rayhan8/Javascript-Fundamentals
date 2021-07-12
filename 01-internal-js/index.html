@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>Internal JavaScript</title>
+</head>
+<body>
+ <h2>Internal JavaScript</h2>
+ <button class="btn">random button</button>
+ <button class="btn">random button</button>
+ <button class="btn">random button</button>
+ <button class="btn">random button</button>
+ <button class="btn">random button</button>
+ <button class="btn">random button</button>
+ <button class="btn">random button</button>
+
+ <script>
+  document.querySelectorAll('.btn').forEach((item)=>{
+   item.addEventListener('click',()=>{
+    alert('this is awesome')
+   })
+  })
+ </script>
+</body>
+</html>
